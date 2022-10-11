@@ -1,0 +1,154 @@
+:root{
+    --bg: #3142db;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #ccc;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.subtitle{
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+/*----header-------*/
+
+header{
+    margin: 50px 200px; 
+}
+
+
+.personal-info{
+    background-color: var(--bg);
+    color: #fff;
+    width: 100%;
+    padding: 20px;
+}
+
+.personal-info .name{
+    text-align: center;
+    font-size: 50px;
+}
+
+.personal-info .name strong{
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.personal-info ul svg{
+    margin-right: 3px;
+}
+
+.personal-info ul a{
+    color: #fff;
+    text-decoration: none;
+}
+
+/*-------header------*/
+
+/*------extract-------*/
+
+.extract-content{
+    border-bottom: 1px solid var(--bg);
+}
+
+.extract-content p{
+   font-weight: initial;
+   font-size: 20px;
+}
+
+/*------extract-------*/
+
+
+/*------education-------*/
+.education-e {
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    margin: 10px 0;
+    padding: 5px;
+}
+
+.education-e .title-education{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.education-e .theme-education{
+    font-size: 18px;
+}
+
+.education-e .year-education{
+    color: #202020;
+    font-size: 15px;
+}
+
+/*------education-------*/
+
+
+/*------proyects-------*/
+
+.title_proyects{
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.label_proyects{
+    font-size: 15px;
+    color: rgb(231, 59, 59);
+    text-transform: uppercase;
+}
+
+.description_proyects{
+    font-size: 20px;
+    font-weight: 100;
+}
+
+/*------proyects-------*/
+
+
+/*------experience-------*/
+
+.works{
+    display: flex;
+}
+
+.work a{
+    margin: 10px;
+}
+
+.image_work{
+    width: 100px;
+    height: 50px;
+}
+
+/*------experience-------*/
+
+
+/*------footer-------*/
+
+footer{
+    text-align: center;
+    color: #000;
+    margin: 40px 0;
+}
+
+footer .title_footer{
+    font-size: 15px;
+}
+
+/*------footer-------*/
+
+
